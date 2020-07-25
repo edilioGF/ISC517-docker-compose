@@ -3,8 +3,8 @@ FROM openjdk:8-jdk-alpine
 ENV NOMBRE_APP = 'barcamp'
 # forma estandar para cambiar la configuracion
 ENV spring.datasource.url='jdbc:mysql://mysql-db:33006/barcamp'
-ENV spring.datasource.username='root'
-ENV spring.datasource.password='123456'
+ENV spring.datasource.username='rootuser25'
+ENV spring.datasource.password='therealpassword47'
 
 VOLUME /tmp
 

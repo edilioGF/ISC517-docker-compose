@@ -20,8 +20,8 @@ services:
               source: data
               target: /var/lib/mysql
         environment:
-            - MYSQL_USER=root
-            - MYSQL_ROOT_PASSWORD=123456 
+            - MYSQL_USER=rootuser25
+            - MYSQL_ROOT_PASSWORD=therealpassword47 
             - MYSQL_DATABASE=barcamp
 
 volumes:
