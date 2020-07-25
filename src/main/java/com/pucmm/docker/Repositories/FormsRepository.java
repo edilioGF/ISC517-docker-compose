@@ -7,12 +7,12 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FormsRepository extends JpaRepository<Form, Long> {
-    @Query(value = "select sum(first) from Form ")
+    @Query(value = "select avg(first) from Form ")
     int sumFirst();
 
-    @Query(value = "select sum(second) from Form ")
+    @Query(value = "select avg(second) from Form ")
     int sumSecond();
 
-    @Query(value = "select sum(third) from Form ")
+    @Query(value = "select avg(third) from Form ")
     int sumThird();
 }
